@@ -62,14 +62,24 @@ height: 148px;
 }
 
 .carousel{
-    width: 85%;
+    width: 100%;
     height: 173px;
     background-color: #FFFFFF;
 }
 
 .search{
-    width:60%;
+    width:70%;
 }
+
+@media only screen and (max-width: 980px){
+    .logo{
+       width: 120px;
+    }
+   
+       .search{
+           width:65%;
+       }
+   }
 
 @media only screen and (max-width: 681px){
    
@@ -101,29 +111,11 @@ height: 148px;
             }
 
             .search{
-                width:75%;
+                width:80%;
             }
 
-            .photo{
-    
-                width: 78px;
-                height: 78px;
-                
-                
-                }
+          
 }
 
-@media only screen and (max-width: 980px){
- .logo{
-    width: 120px;
- }
- .photo{
-    
-    width: 98px;
-    height: 98px;
-    }
-    .search{
-        width:100%;
-    }
-}
+
 
